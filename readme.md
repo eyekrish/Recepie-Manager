@@ -47,19 +47,17 @@ python manage.py createsuperuser
 # Start the development server
 python manage.py runserver
 ## Usage
-- Open `http://127.0.0.1:8000` in your browser.
-- Navigate to the application dashboard.
-- View **real-time stock market data** from NEPSE.
-- Analyze market trends using built-in **technical indicators**.
-- Receive **Buy and Sell signals** based on trend analysis.
-- Customize alerts for specific stocks or indicators.
+Open http://127.0.0.1:8000 in your browser.
+Use the "Create a New Recipe" form to add a new recipe.
+View all added recipes in the table below.
+Click "Delete" to remove a recipe.
+Manage recipes via the Django Admin panel (/admin).
 
 ## Roadmap
-✅ Real-time stock data scraping  
-✅ Basic technical indicator implementation  
-🔜 User authentication and portfolio tracking  
-🔜 Advanced AI-based stock predictions  
-🔜 API integration for automated trading  
+✅ Basic CRUD operations
+✅ Image upload support
+🔜 User authentication for personalized recipe management
+🔜 API support for external integrations
 
 ## Contributing
 We welcome contributions from the community! To contribute:
